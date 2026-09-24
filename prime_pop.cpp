@@ -24,7 +24,7 @@ void isprime(int number)
 int main()
 {
     int number;
-    cout<<"Enter any number: ";
+    cout<<"Enter a number: ";
     cin>>number;
     isprime(number);
 }

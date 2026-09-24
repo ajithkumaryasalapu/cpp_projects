@@ -21,15 +21,15 @@ void prime::prime_count()
 void prime::isprime()
 {
     if(count==2)
-        cout<<"The given "<<number<<" is a prime number";
+        cout<<"The given "<< number <<" is a prime number";
     else
-        cout<<"The given "<<number<<" is not a prime number";
+        cout<<"The given "<< number <<" is not a prime number";
 }
 
 int main()
 {
     prime check;
-    cout<<"Enter any number: ";
+    cout<<"Enter a number: ";
     cin>>check.number;
     check.prime_count();
     check.isprime();
